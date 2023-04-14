@@ -5,36 +5,56 @@
 }
 
 body{
-    font-family: "Zilla Slab", serif;
+    
+    font-family: 'Exo 2', sans-serif monospace !important;
 }
 
-#bg-image {
-    background-image: url("https://pinoygamer.ph/attachments/image-mountain-of-eternal-winter-jpg.9651/");
-    min-height: 100vh;
-/*    background-repeat : no-repeat;*/
+#bg-image{
+    background-image: url("https://s1.pearlcdn.com/NAEU/Upload/News/65f0a503f9f20220308070046288.jpg");
+    postion: relative;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    background-position: 10% 10%;
-    background-attachment: sticky;
-    display: absolute;
+    height: 100vh;
+    background-attachment: fixed;
 }
 
-.container{
-    width: 50%;
-    float: right;
-    margin-right: 12%;
-    padding-bottom: 1%;
-    font-size: 10px;
-    display: inline-block;
-    color: yellow;
-}
+.text-main{
 
-.front-bg{
-    background-color: rgba(0, 0, 0, 0.5);
-    min-height: 100vh;
-    min-width: 100vh;
-    background-attachment: sticky;
-}
-
-.title{
     text-align: center;
+    padding: 30px;
+    margin-top: 70px; 
+    color: #A5D7E8; 
+}
+
+.front-bg {
+    background: rgba(0, 0, 0, 0.3);
+    min-height: 100vh;
+}
+
+#text-projects{
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px; 
+    color: #576CBC;
+    text-transform: uppercase; 
+/*    width: auto;*/
+}
+
+#text-project1{
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px; 
+    color: #576CBC;
+    text-transform: uppercase; 
+/*    width: auto;*/
+}
+.text-contact{
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    color: #576CBC;
+    text-transform: uppercase;
+
 }
