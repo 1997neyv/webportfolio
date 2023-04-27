@@ -4,57 +4,255 @@
     box-sizing: border-box;
 }
 
-body{
-    
-    font-family: 'Exo 2', sans-serif monospace !important;
+#logo {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+
+color: #003363;
 }
 
-#bg-image{
-    background-image: url("https://s1.pearlcdn.com/NAEU/Upload/News/65f0a503f9f20220308070046288.jpg");
-    postion: relative;
+
+#title{
+font-family: 'Montserrat', monospace;
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 100%;
+
+/* GS Brand / White */
+color: #FFFBEB;
+}
+
+#sub-title{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 84px;
+
+/* GS Brand / White */
+color: #FFFBEB;
+}
+
+#base{
+padding: 8px 24px;
+background: #12C6FF;
+border-radius: 2px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 24px;
+
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+#landing{
+    background: 
+
+    linear-gradient(
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.1)
+    ),
+    url("./images/background2.jpg");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    height: 100vh;
+    background-attachment: fixed;
+
+}
+
+#about{
+    background: #263159;;
+}
+
+#text-title{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+
+/* identical to box height, or 133% */
+
+color: #FFFBEB;
+
+}
+
+#about p {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* or 150% */
+
+    color: #FFFBEB;
+}
+
+#project{
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+    ),
+    url("./images/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
 }
 
-.text-main{
+#project h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
 
-    text-align: center;
-    padding: 30px;
-    margin-top: 70px; 
-    color: #A5D7E8; 
+    /* identical to box height, or 133% */
+
+    color: #FFFBEB;
 }
 
-.front-bg {
-    background: rgba(0, 0, 0, 0.3);
-    min-height: 100vh;
+
+
+#contact{
+    background: #003363;
+
 }
 
-#text-projects{
-    text-align: center;
-    padding: 5px;
-    margin-top: 10px; 
-    color: #576CBC;
-    text-transform: uppercase; 
-/*    width: auto;*/
+#contact-image{
+    background: 
+
+        linear-gradient(
+            rgba(0, 34, 65, 0.61),
+            rgba(0, 34, 65, 0.61)
+        ),
+        url("./images/building.png");
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 
-#text-project1{
-    text-align: center;
-    padding: 5px;
-    margin-top: 10px; 
-    color: #576CBC;
-    text-transform: uppercase; 
-/*    width: auto;*/
+#contact-header{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+
+/* identical to box height, or 100% */
+
+color: #12C6FF;
 }
-.text-contact{
+
+#contact-text{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+
+/* or 125% */
+
+color: #FFFFFF;
+
+
+}
+
+#contact form label{
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+
+#contact form input {
+    background: #FFFFFF;
+    border: 1px solid #12C6FF !important; 
+    border-radius: 0 !important;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #003363; !important
+
+
+}
+#contact from textarea{
+background: #FFFFFF;
+border: 1px solid #12C6FF;
+border-radius: 0 !important;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+}
+
+#form-btn{
+padding: 8px 24px;
+gap: 8px;
+background: #12C6FF;
+border-radius: 2px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 24px;
+
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#social-header{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+
+    /* identical to box height, or 100% */
     text-align: center;
-    padding: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px; 
-    color: #576CBC;
-    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+footer {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 24px;
+
+/* identical to box height, or 185% */
+text-align: center;
+
+color: #003363;
+
 
 }
