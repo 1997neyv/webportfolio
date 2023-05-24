@@ -70,8 +70,22 @@ color: #FFFFFF;
 }
 
 #about{
-    background: #263159;;
+    background: #263159;
 }
+
+#tools{
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+    ),
+    url("./images/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
 
 #text-title{
 font-family: 'Montserrat';
@@ -126,7 +140,7 @@ color: #FFFBEB;
 
 
 #contact{
-    background: #003363;
+    background: #263159;
 
 }
 
@@ -142,8 +156,20 @@ color: #FFFBEB;
         background-size: cover;
 }
 
+/*#contact-bg-left{
+    background: 
+
+        linear-gradient(
+            rgba(0, 34, 65, 0.61),
+            rgba(0, 34, 65, 0.61)
+        ),
+        url("./images/background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+}*/
+
 #contact-header{
-    font-family: 'Montserrat';
+font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
